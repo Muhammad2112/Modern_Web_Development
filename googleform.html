@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Request Form</title>
+</head>
+<body>
+    
+            <h1>Travel Request</h1>
+            <p style="font-weight: bold;">Submit travel request for approval by manager</p>
+            <hr>
+        
+        <form action="#" method="get">
+            <p style="color: red;">* Indicates required question</p>
+            <hr>
+
+            
+                <p>
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                </p>
+          
+
+                <p>
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                </p>
+
+                <p>
+                <label for="destination">Destination *</label>
+                <input type="text" id="destination" name="destination" placeholder="Your destination" required>
+                </p>
+
+            
+                <label>Business purpose *</label>
+                <p>
+                    <input type="radio" id="meeting" name="purpose" required>
+                    <label for="meeting">Customer meeting</label><br>
+                    
+                    <input type="radio" id="teamwork" name="purpose">
+                    <label for="teamwork">Working with team</label><br>
+                    
+                    <input type="radio" id="conference" name="purpose">
+                    <label for="conference">Attending conference</label><br>
+                    
+                    <input type="radio" id="offsite" name="purpose" >
+                    <label for="offsite">Offsite fun event</label><br>
+
+                    <input type="radio" id="other" name="purpose" >
+                    <label for="other">Other:</label>
+                </p>
+
+                <p>
+                <label for="start_date">Start date *</label>
+                <input type="date" id="start_date" name="start_date" placeholder="mm/dd/yyyy" required>
+                </p>
+
+                <p>
+                <label for="end_date">End date *</label>
+                <input type="date" id="end_date" name="end_date" placeholder="mm/dd/yyyy" required>
+            </p>
+
+
+                <p>
+                <a href="">
+                <button type="submit">Submit</button>
+                </a>
+                <br>
+                <a href="https://docs.google.com/forms/u/0/">Clear form</a>
+            </p>
+
+        </form>
+    
+</body>
+</html>
